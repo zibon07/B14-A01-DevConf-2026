@@ -168,7 +168,7 @@ nav {
 }
 
 .price-section-headings p {
-    color:#575757;
+    color: #575757;
     margin-top: 10px;
     margin-bottom: 25px;
 }
@@ -297,4 +297,75 @@ hr {
 
 #pro-price-card-p {
     color: blue;
+}
+
+/* FAQ Section Styles */
+
+.faq-section {
+    margin-top: 40px;
+    padding: 40px 0 60px;
+}
+
+.faq-section-headings {
+    text-align: center;
+}
+
+.faq-section-headings h1 {
+    font-size: 50px;
+}
+
+.faq-section-headings p {
+    color: #575757;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-item {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 18px 22px;
+    background: #fff;
+}
+
+.faq-item summary {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1f2937;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-right: 30px;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.faq-item[open] summary::after {
+    content: "−";
+}
+
+.faq-item p {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-top: 12px;
 }
