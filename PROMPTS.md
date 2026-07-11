@@ -1,0 +1,1 @@
+i made a website page about web conference 2026. the site has a navbar section , banner or hero section, meet the speakers section, Secure Your Spot (Pricing) Section. now i want to give the site another relevant section with your help. this section must be consistent with my page layout, you will be using only html & css!
