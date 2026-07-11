@@ -2,3 +2,51 @@
     margin: 0;
     padding: 0;
 }
+
+/* Shared Styles */
+.inter {
+    font-family: inter;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.p-text-color {
+    color: #575757;
+}
+
+
+.primary-btn{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 25px;
+    border-radius: 15px;
+    border: none;
+}
+/* Navbar Styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 30px;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: #575757
+}
