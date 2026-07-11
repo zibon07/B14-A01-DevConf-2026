@@ -11,7 +11,6 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 .p-text-color {
@@ -89,7 +88,6 @@ nav {
 
 .Speakers-section {
     margin-top: 40px;
-    height: 1200px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -155,4 +153,148 @@ nav {
 .card-details {
     margin-left: 10px;
     margin-bottom: 10px;
+}
+
+
+/* pricing card section styles */
+
+.price-card-section {
+
+    margin-top: 30px;
+}
+
+.price-section-headings {
+    text-align: center;
+}
+
+.price-section-headings p {
+    color:#575757;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#price-card-section h1 {
+    text-align: left;
+    font-size: 50px;
+}
+
+.pricing-card {
+    border: 1px solid #e5e7eb;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 22px;
+}
+
+
+
+.price-card-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 15px;
+}
+
+.pricing-card {
+    width: 280px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 22px;
+    background: #fff;
+}
+
+
+.plan {
+    font-size: 12px;
+    color: #8a8a8a;
+    font-weight: 700;
+    letter-spacing: .5px;
+    margin-bottom: 8px;
+}
+
+.price {
+    font-size: 52px;
+    font-weight: 700;
+    color: #1f2937;
+    line-height: 1;
+}
+
+.person {
+    font-size: 14px;
+    color: #9ca3af;
+    margin-top: 4px;
+    margin-bottom: 18px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin-bottom: 26px;
+}
+
+.pricing-card li {
+    position: relative;
+    padding-left: 16px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #374151;
+    line-height: 1.5;
+}
+
+.pricing-card li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #2563eb;
+    font-size: 18px;
+    line-height: 1;
+}
+
+
+.pricing-card button {
+    width: 100%;
+    padding: 12px 0;
+    background: #fff;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.pricing-card button:hover {
+    background: #2563eb;
+    color: #fff;
+}
+
+#pro-price-card {
+    background-color: #0D1B2A;
+
+}
+
+#pro-price-card h1 {
+    color: white;
+}
+
+
+#pro-price-card li {
+    color: #FFFFFF;
+}
+
+#pro-price-card button {
+    background-color: blue;
+    color: white;
+}
+
+#pro-price-card button:hover {
+    background-color: #fff;
+    color: #2563eb;
+}
+
+#pro-price-card-p {
+    color: blue;
 }
